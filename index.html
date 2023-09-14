@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Rightway Solar</title>
+    </head>
+    <body>
+        <div class="portal">
+            <img
+                src="./assets/portallogo.png"
+                alt="Universal logo rightway construction and solar"
+            />
+            <hr />
+            <p>CHOOSE YOUR SERVICE</p>
+            <div class="portal-options">
+                <div id="portalconstructionmode" class="blurtext blurconstr">
+                    <p>CONSTRUCTION</p>
+                </div>
+                <div id="portalconstruction" class="portal-option">
+                    <div id="porconim" class="portal-option-image"></div>
+                </div>
+                <div id="portalsolarmode" class="blurtext blursolar">
+                    <p>SOLAR</p>
+                </div>
+                <div id="portalsolar" class="portal-option">
+                    <div id="porsolim" class="portal-option-image"></div>
+                </div>
+            </div>
+        </div>
+        <div class="landing-page" id="landing">
+            <div class="fade-effect"></div>
+            <img
+                id="logo"
+                src="assets/constructionlogotrans.png"
+                alt="LOGO construction"
+            />
+
+            <ul class="nav">
+                <li><a id="whynavitem" href="#faq">Why Solar</a></li>
+                <li>
+                    <a id="calcnavitem" href="#calc">Solar Calculator</a>
+                </li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="chooser">
+                <div id="constructionmode" class="chooser-item chooser-dark">
+                    <img
+                        id="chooser-icons"
+                        src="assets/constructionoption.png"
+                        alt="CONSTRUCTION"
+                    />
+                </div>
+                <div id="solarmode" class="chooser-item chooser-trans">
+                    <img
+                        id="chooser-icons"
+                        src="assets/solaroption.png"
+                        alt="SOLAR"
+                    />
+                </div>
+            </div>
+
+            <div class="hero">
+                <h1 id="mainsent">SOLAR POWER</h1>
+                <p id="tagline">
+                    Rightway Solar is a leading solar energy company that
+                    specializes in providing renewable<br />
+                    energy solutions to residential, commercial, and industrial
+                    clients
+                </p>
+
+                <div class="herobtns">
+                    <div
+                        onclick="location.href='#calc'"
+                        class="btn trans-blue"
+                        id="herobtn1"
+                    >
+                        <p>Calculate Savings</p>
+                    </div>
+                    <div
+                        onclick="location.href='#contact'"
+                        class="btn cta-blue"
+                        id="herobtn2"
+                    >
+                        <p>Get in Touch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-page" id="faq">
+            <h2 id="faq-page-heading">Why Rightway Solar?</h2>
+            <p>Quality brands for quality savings</p>
+            <div class="faq-section">
+                <div class="image-banner">
+                    <img
+                        id="smallbrand"
+                        src="assets/brand1.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="smallbrand"
+                        src="assets/brand2.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="smallbrand"
+                        src="assets/brand3.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="smallbrand"
+                        src="assets/brand4.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div id="bigbrand" class="image-banner">
+                    <img src="assets/brand5.png" alt="partner logo" />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="bigbrand"
+                        src="assets/brand6.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="bigbrand"
+                        src="assets/brand7.png"
+                        alt="partner logo"
+                    />
+                </div>
+                <div class="image-banner">
+                    <img
+                        id="bigbrand"
+                        src="assets/brand8.png"
+                        alt="partner logo"
+                    />
+                </div>
+            </div>
+            <div class="partner-container">
+                <div class="partner-image-container">
+                    <img
+                        src="assets/dontuwiretext.png"
+                        alt="dontuwire text image"
+                        id="partner-text-image"
+                    />
+                    <img
+                        src="assets/dontuwirelogo.jpg"
+                        alt="dont u wire logo solar installer"
+                        id="partner-logo-image"
+                    />
+                </div>
+                <p id="partner-heading">Our partner</p>
+                <p id="partner-tagline">
+                    We only use approved installers<br />to make sure your
+                    installation is done the
+                    <span id="partner-emphasis">Rightway!</span>
+                </p>
+                <div
+                    class="btn cta-blue"
+                    onclick="javascript:location.href='https://dontuwire.co.za/'"
+                    id="partner-btn"
+                >
+                    <p>Visit</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-page" id="testimonial">
+            <h2 id="testiheading">OUR PROJECTS INCLUDE</h2>
+            <div class="old-cards">
+                <div class="old-card">
+                    <div id="residentialimg"></div>
+                    <p id="card-head">Residential</p>
+                    <hr />
+                    <p id="card-content">
+                        New property development<br /><br />
+                        Home extensions<br /><br />
+                        Home renovations<br /><br />
+                        Home maintenance
+                    </p>
+                </div>
+                <div class="old-card">
+                    <div id="managementimg"></div>
+                    <p id="card-head">Project management</p>
+                    <hr />
+                    <p id="card-content">
+                        End-to-End management<br /><br />
+                        Professional services<br /><br />
+                        One sole-focused team <br /><br />
+                        Full responsibility
+                    </p>
+                </div>
+                <div class="old-card">
+                    <div id="commercialimg"></div>
+                    <p id="card-head">Commercial</p>
+                    <hr />
+                    <p id="card-content">
+                        Steel structures<br /><br />
+                        Agricultural structures<br /><br />
+                        Concrete civil<br /><br />
+                        Commercial and industrial
+                    </p>
+                </div>
+            </div>
+            <p id="dreams">BUILDING YOUR DREAMS</p>
+            <div class="testimonial-container">
+                <div class="quote">
+                    <img src="assets/quote.png" alt="Quotation mark symbol" />
+                </div>
+                <div class="new-cards">
+                    <div class="new-card">
+                        <div id="projimg1" class="card-image"></div>
+                        <div class="card-contents">
+                            <p id="testitext">
+                                " They helped us with multiple renovations, such
+                                as complete bathroom renovation, painting of
+                                living area and laminated flooring. Everything
+                                were done super professional and I can highly
+                                recommend them! "
+                            </p>
+                            <p id="testiloc">Plattekloof Western Cape</p>
+                        </div>
+                    </div>
+
+                    <div class="new-card">
+                        <div id="projimg2" class="card-image"></div>
+                        <div class="card-contents">
+                            <p id="testitext">
+                                " Rightway Construction is one of the best
+                                contractors we've worked with. The entire team
+                                tactfully delivered a project of exceptional
+                                quality while staying on schedule and under
+                                budget. "
+                            </p>
+                            <p id="testiloc">Bellville Western Cape</p>
+                        </div>
+                    </div>
+                    <div class="new-card">
+                        <div id="projimg3" class="card-image"></div>
+                        <div class="card-contents">
+                            <p id="testitext">
+                                " We just had our house painted by Rightway
+                                Construction. Very professional, fair price, and
+                                excellent work. We highly recommend Louis and
+                                his team at Rightway Construction. "
+                            </p>
+                            <p id="testiloc">Strand Western Cape</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calc-page" id="calc">
+            <h2 id="calc-page-heading">Calculate your savings</h2>
+            <div class="calc-container">
+                <div class="calc-inputs">
+                    <div class="calc-phase calc-blue">
+                        <p class="calc-card-head">
+                            Single-phase or Three-phase ?
+                        </p>
+                        <p class="calc-card-sub">
+                            The default option is single
+                        </p>
+                        <div class="calc-toggle">
+                            <div class="toggle-option">
+                                <p>Three</p>
+                            </div>
+                            <div class="toggle-option toggle-active">
+                                <p>Single</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc-bill calc-gray">
+                        <p class="calc-card-head">
+                            Your monthly electricity bill ?
+                        </p>
+                        <div class="slider-display-blue">
+                            <p id="billValue">R 2,100</p>
+                        </div>
+                        <div class="slider-container">
+                            <input
+                                type="range"
+                                min="1000"
+                                max="15000"
+                                value="1200"
+                                class="slider slider-blue"
+                                id="billRange"
+                            />
+                        </div>
+                    </div>
+                    <div class="calc-goal calc-blue">
+                        <p class="calc-card-head">
+                            Your savings goal of your bill ?
+                        </p>
+                        <div class="slider-display-gray">
+                            <p id="savingsValue">25 %</p>
+                        </div>
+                        <div class="slider-container">
+                            <input
+                                type="range"
+                                min="1"
+                                max="100"
+                                value="50"
+                                class="slider slider-gray"
+                                id="savingsRange"
+                            />
+                        </div>
+                    </div>
+                    <div class="calc-auto calc-gray">
+                        <p class="calc-card-head">
+                            How long would you like to be able to run off of
+                            batteries ?
+                        </p>
+                        <div class="slider-display-blue">
+                            <p id="batteryValue">3 hours</p>
+                        </div>
+                        <div class="slider-container">
+                            <input
+                                type="range"
+                                min="1"
+                                max="24"
+                                value="3"
+                                class="slider slider-blue"
+                                id="batteryRange"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-outputs">
+                    <div class="calc-outputs-info">
+                        <div>
+                            <p>Total system cost</p>
+                            <p id="totalsystemcost">R 220,172.19</p>
+                        </div>
+                        <div>
+                            <p>Payback period</p>
+                            <p id="paybackperiod">40.5 Years</p>
+                        </div>
+                        <div>
+                            <p>Battery bank capacity</p>
+                            <p id="batterybankcapacity">15.36 kWh</p>
+                        </div>
+                        <div>
+                            <p>Size of panel array</p>
+                            <p id="sizeofpanelarray">1.37 kWp</p>
+                        </div>
+                        <div class="calc-savings">
+                            <p>Estimated monthly savings</p>
+                            <div>
+                                <p id="estimatedmonthlysavings">R 453.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc-outputs-img"></div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-page" id="contact">
+            <div class="contact-form">
+                <h2 id="contact-page-heading">Get in touch</h2>
+                <p>
+                    Send us a message and we will get back to you as soon as we
+                    can.
+                </p>
+                <form
+                    class="formelement"
+                    action="https://formsubmit.co/louis@rightwayconstruction.co.za"
+                    method="POST"
+                >
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Full name"
+                    />
+                    <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Email address"
+                    />
+                    <input
+                        type="text"
+                        id="phone"
+                        name="phone"
+                        placeholder="Phone number"
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Your message ..."
+                        id="message"
+                    ></textarea>
+                    <div
+                        type="submit"
+                        onclick="javascript:this.parentNode.submit();"
+                        class="btn cta-blue"
+                        id="sendbtn"
+                    >
+                        Send
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="info-splash">
+                    <p>Louis Botha</p>
+                    <div>
+                        <img src="assets/callwhite.png" alt="call icon" />
+                        <p>084 264 1233</p>
+                    </div>
+                    <div>
+                        <img src="assets/emailwhite.png" alt="email icon" />
+                        <p>louis@rightwayconstruction.co.za</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#landing"
+                ><img
+                    id="footerimage"
+                    src="assets/solarlogoblue.png"
+                    alt="LOGO solar construction loadshedding"
+            /></a>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/rightway.construction/?hl=en"
+                    ><img src="assets/igwhite.png" alt="instagram link"
+                /></a>
+                <a href="https://www.facebook.com/rightwayconstructionsa/"
+                    ><img src="assets/fbwhite.png" alt="facebook link"
+                /></a>
+                <a href="#contact"
+                    ><img src="assets/emailwhite.png" alt="email link"
+                /></a>
+            </div>
+            <p>Copyright 2023 @ Rightway construction Ltd.</p>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="chooser.js"></script>
+    </body>
+</html>
